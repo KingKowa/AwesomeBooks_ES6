@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <header>
+		<div class="nav-section">
+			<h3>Awesome</h3>
+			<nav class="nav-links">
+				<ul>
+					<li class="links list-section">List</li>
+					<li class="links add-section">Add New</li>
+					<li class="links contact-section">Contact</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="current-date"></div>
+
+    </header>
+    <main>
+      <section class="books list-section">
+        <h1>Awesome Books</h1>
+        <ul class="bookslist"></ul>
+      </section>
+
+      <section class=" add-section">
+        <div class="form">
+          <h2>Add new book</h2>
+          <form action="#" id="form" method="POST">
+            <p id="message"></p>
+            <input
+              type="text"
+              name="input-title"
+              id="input-title"
+              placeholder="Titile"
+              required
+            />
+            <br />
+            <input
+              type="text"
+              name="input-author"
+              id="input-author"
+              placeholder="Author"
+              required
+            />
+            <br />
+            <button type="button" id="submit">Add book</button> <br />
+          </form>
+        </div>
+
+      </section>
+      <section class="contact contact-section">
+        <h2>Contact information</h2>
+        <p>
+          Do you have any questions or you just want to say "Hello?"<br />
+          You can reach out to us!
+        </p>
+        <ul class="contact-info">
+          <li>
+            <div>E-mails:</div>
+              <ul>
+                <li>
+                  <a href="mailto:ankomahfrederickyahoo@gmail.com">ankomahfrederickyahoo@gmail.com</a>
+                </li>
+              </ul>
+          </li>
+          <li>
+            <div>Phone number:</div>
+              <ul>
+                <li><a href="tel:+233243142288">+233243142288</a></li>
+              </ul>
+          </li>
+		  <li>
+			  <div> Address:</div>
+				<ul>
+				  <li>Teshie, Accra GHANA</li>
+				</ul>
+		  </li>
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="footer">
+        Copyrights reserved.
+      </div>
+    </footer>
+    <script type='module' src="./index.js"></script>
+</body>
+</html>
